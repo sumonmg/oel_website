@@ -1,0 +1,271 @@
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #3e4f5c;
+  background-color: #d5d5d8;
+}
+h1 {
+    font-size: 40px !important;
+    font-weight: 300;
+    line-height: 130%
+}
+h2 {
+    font-size: 30px;
+    line-height: 140%;
+    font-weight: 300;
+}
+h3 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;      
+  font-size: 22px;
+  color: #3e4f5c;
+  line-height: 140%;
+}
+h4 {
+  margin: 10px 0 50px 0;
+  letter-spacing: 5px;      
+  font-size: 20px;
+  color: #3e4f5c;
+  line-height: 140%;
+}
+h5 {
+  font-size: 16px;
+}
+.navbar-toggle {
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    margin-top: 14px;
+    margin-right: 14px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #3e4f5c;
+}
+.jumbotron {
+  background-color: #3e4f5c;
+  color: #88b04b;
+  padding: 120px 25px 70px 25px;
+  font-family: Lato, sans-serif;
+  margin-bottom: 0px;
+}
+.banner-image {
+    margin: 0px auto;
+    padding: 50px 0px;
+    width: 476px;
+    height: auto;
+}
+.second_heading {
+    margin: 0px auto;
+    max-width: 850px;
+}
+.container {
+  padding: 60px 25px;
+}
+.navbar-nav>li>a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.ceo_section {
+    margin: 30px auto;
+}
+.team_section {
+    margin: 30px auto;
+}
+.team_block {
+    margin: 30px 0px;
+}
+.text-justify {
+  text-align: justify;
+}
+.person {
+  border: 6px solid transparent;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  opacity: 1;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* Rotate div */
+  -ms-transform: rotate(-6deg); /* IE 9 */
+  -webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
+  transform: rotate(-6deg);
+}
+.person:hover {
+  border-color: #f1f1f1;
+}
+.team_picture {
+  border: 1px solid #eee;
+  opacity: 1;
+  margin: 20px auto -20px;
+}
+.second_heading h3 {
+  margin: 0;
+  letter-spacing: 0px;      
+  font-size: 20px;
+  color: #88b04b;
+  line-height: 140%;
+  font-weight: normal;
+}
+footer {
+    background-color: #32414b !important;
+}
+.carousel-inner img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%); /* make all photos black and white */ 
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+.carousel-caption h3 {
+  color: #fff !important;
+}
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+}
+}
+.bg-1 {
+  background: #3e4f5c;
+  color: #88b04b;
+}
+.bg-1 h4 {
+  color: #88b04b;
+  margin-top: 30px;
+}
+.bg-1 h3 {
+  color: #d5d5d8;
+}
+.bg-1 p {font-style: italic;}
+.list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+.thumbnail p {
+  margin-top: 15px;
+  color: #3e4f5c;
+  font-size: 14px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+}
+.btn:hover, .btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
+.modal-header, .modal-body {
+  padding: 40px 50px;
+}
+.nav-tabs li a {
+  color: #777;
+}
+.navbar {
+  font-family: Lato, sans-serif;
+  margin-bottom: 0;
+  background-color: #3e4f5c;
+  border: 0;
+  font-size: 12px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand { 
+  color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #313f49 !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+.dropdown-menu li a {
+  color: #000 !important;
+}
+.dropdown-menu li a:hover {
+  background-color: red !important;
+}
+footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  padding: 32px;
+}
+footer a {
+  color: #f5f5f5;
+}
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}  
+.form-control {
+  border-radius: 0;
+}
+textarea {
+  resize: none;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+.brand_cpi img {
+  width: 160px;
+  height: auto;
+}
+.brand_cpi {
+  margin: 30px auto;
+}
+.brand_cps img {
+  width: 230px;
+  height: auto;
+}
+.brand_cps {
+  margin: 30px auto;
+}
+.brand_vi img {
+  width: 160px;
+  height: auto;
+}
+.brand_vi {
+  margin: 30px auto;
+}
+.brand_ecom img {
+  width: 200px;
+  height: auto;
+}
+.brand_ecom {
+  margin: 30px auto;
+}
+.un-logo {
+  margin: 20px auto;
+}
+.csr_section {
+  color: #d5d5d8;
+}
+.csr_section a {
+  color: #88b04b;
+}
+.csr_section h3 {
+    letter-spacing: 3px; 
+}
+.ten_principles {
+  margin-top: 20px;
+}
+blockquote footer {
+  background-color: #d5d5d8 !important;
+  color: #3e4f5c;
+}
