@@ -1,10 +1,11 @@
-var host = "sumonmg.github.io";
-if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
-    
+
 $(document).ready(function(){
   
-  $('#current_year').text(new Date().getFullYear());
+  var host = "sumonmg.github.io";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+      window.location.protocol = "https";
+    
+    $('#current_year').text(new Date().getFullYear());
 
   $('#working_year').text(new Date().getFullYear() - 2001);
 
