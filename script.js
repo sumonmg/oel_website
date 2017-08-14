@@ -1,15 +1,14 @@
-
+var host = "outsourceexpertsbd.com";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+    
 $(document).ready(function(){
   
-  var host = "sumonmg.github.io";
-  if ((host == window.location.host) && (window.location.protocol != "https:"))
-      window.location.protocol = "https";
-    
-    $('#current_year').text(new Date().getFullYear());
+  $('#current_year').text(new Date().getFullYear());
 
   $('#working_year').text(new Date().getFullYear() - 2001);
 
-  // Initialize Tooltip
+  // Initialize TooltipmyPagehome
   $('[data-toggle="tooltip"]').tooltip(); 
   
   // Add smooth scrolling to all links in navbar + footer link
