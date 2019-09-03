@@ -15,14 +15,14 @@ h2 {
 }
 h3 {
   margin: 10px 0 30px 0;
-  letter-spacing: 10px;      
+  letter-spacing: 10px;
   font-size: 22px;
   color: #3e4f5c;
   line-height: 140%;
 }
 h4 {
   margin: 10px 0 50px 0;
-  letter-spacing: 5px;      
+  letter-spacing: 5px;
   font-size: 20px;
   color: #3e4f5c;
   line-height: 140%;
@@ -97,7 +97,7 @@ h5 {
 }
 .second_heading h3 {
   margin: 0;
-  letter-spacing: 0px;      
+  letter-spacing: 0px;
   font-size: 20px;
   color: #88b04b;
   line-height: 140%;
@@ -108,7 +108,7 @@ footer {
 }
 .carousel-inner img {
   -webkit-filter: grayscale(90%);
-  filter: grayscale(90%); /* make all photos black and white */ 
+  filter: grayscale(90%); /* make all photos black and white */
   width: 100%; /* Set width to 100% */
   margin: auto;
 }
@@ -177,7 +177,7 @@ footer {
   letter-spacing: 4px;
   opacity: 0.9;
 }
-.navbar li a, .navbar .navbar-brand { 
+.navbar li a, .navbar .navbar-brand {
   color: #d5d5d5 !important;
 }
 .navbar-nav li a:hover {
@@ -211,7 +211,7 @@ footer a {
 footer a:hover {
   color: #777;
   text-decoration: none;
-}  
+}
 .form-control {
   border-radius: 0;
 }
@@ -223,7 +223,7 @@ textarea {
     height: auto;
 }
 .brand_cpi img {
-  width: 160px;
+  width: 211px;
   height: auto;
 }
 .brand_cpi {
@@ -260,7 +260,7 @@ textarea {
   color: #88b04b;
 }
 .csr_section h3 {
-    letter-spacing: 3px; 
+    letter-spacing: 3px;
 }
 .ten_principles {
   margin-top: 20px;
